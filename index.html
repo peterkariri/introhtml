@@ -1,0 +1,162 @@
+<!-- html stands for hypertext markup language that is used in the structure of a website
+its used to structure the 
+components of a website :paragraphs ,sections ,artlcles
+
+its used together with css(cascanding style sheet) and javascript
+
+ frontend development
+html>>offers the structure through html tags 
+css>>offers the style through css properties(frameworks like bootstrap,tailwind)
+javascript>>offers funtionality to a website (react,vuejs,nextjs)
+backend development
+express.js,node.js,
+
+databases
+
+whenever you are naming a particular file ,we use the dot notation
+ to know which file extension we are using 
+javscript>.js
+html>>.html 
+css>>.css -->
+
+<!-- html general syntax 
+
+!DOCYPTE>>tells the ide and the web browser that the document is a html document 
+its the only tag that is outside the html tags 
+
+html :opens and closes the html document containing 
+tags that give  structure to the website
+
+head>>contains the links and other necessary 
+resources and files that are used in the
+ website(libraries,css files,javascript files,fonts,frameworks)
+ title>>contains the name of your website 
+ body>>contains the content of the website (all the other relevant tags ) -->
+
+ <!DOCTYPE html>
+ <html lang="en">html tags that sets the language to english
+ <head>
+    they are invisible to the browser(content)
+    <meta charset="UTF-8">meta tags an encoding of ASCII __to 8 bits
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">allows customization 
+    of your website to fit the screen viewport 
+    <title>fullstack</title> identifies your website
+ </head>
+ <body>
+    <header style="display: flex; flex-direction: row; justify-content: space-between;">
+        <!--  used to hold navigation elements ,logos,social media links 
+         offers dynamicity in that you can import it in different webpages  -->
+     
+         <img src="/logo" alt="this is where the logo is ">
+     
+     <nav>
+       <ul>
+         <li><a href="/">Home</a></li>
+         <li><a href="/about.html">About</a></li>
+         <li><a href="/services.html">Services</a></li>
+         <li><a href="/contactus.html">Contact Us</a></li>
+         <li><a href="/register">Register</a></li>
+       </ul>
+     </nav>
+     
+     <nav>
+       <ul>
+         <li><a href="/facebook">facebook</a></li>
+         <li><a href="/instagram">Instagram</a></li>
+         <li><a href="/twitter">X</a></li>
+       </ul>
+     </nav>
+       
+     </header>
+    <!-- heading tags>>heading tags are used to denote main or key level content such as 
+    key names,values ,topics,
+    they are ess than 4 or 6 word
+    thay follow a hierachy (the size decrease with hierachy(h1>>bigger h6>smaller))
+    they are six in number (h1,h2,h3,h4,h5,h6)
+   html tags have opening and closing tags 
+   opening<>
+
+   closing</>;has a front slash to it  -->
+
+    <h1>Hello world</h1>
+    <h2>Hello again</h2>
+    <h3>wow what a wonderful day</h3>
+    <h4>howdy how are yoou</h4>
+    <h5>wow am learning html</h5>
+    <h6>cephalothorax </h6>
+
+    p>>tag:this tag is used to offer and hold longer text content than the heading tag{
+        a paragraph ,text to an explantion,a testimonial
+
+    }
+    <p>hey am peter ,a fullstack 
+        software developer partaking a 
+        degree in computer science at the 
+        university of eldoret and passionate
+         about web development
+    </p>
+
+
+    <article>
+        cntains words that are dense R
+    </article>
+
+    <section>
+        divides the webpage into sections 
+
+    </section>
+    <footer>
+        tis tag contains links and information
+         in regard to other extanal links ,partners,social media links 
+         copyright information,addresses ,contact
+
+    </footer>
+    inline level elements and block level elements 
+
+    inline level elements >>this are elements that occupy only the sapce aournd themeseleves 
+    <i>used to italisise the content inside it </i>
+     <span>used to include elements(contents) that are related to each other(eg:prices,kilograms,related conted)
+        
+        <span style="color: blueviolet;">Ksh.1000</span><span style="color: blue;">kshs.800</span><span style="color: greenyellow;">30%</span>
+    
+    </span>
+     ,<b>used to bold content(maek it appear thick and more darker than the later content)</b>,
+     <em>
+        used to emphasise content by making it italic
+        <em>hello i am an italisised content</em>
+     </em>
+     ,<strong>
+        also used to bold content and make it unique
+     </strong>
+     ,<sup>
+        used to make content appear above the content(mathematical expression :2 to the power of three)
+             
+     </sup>
+     <p>6<sup>2</sup></p> 
+     ,<sub> use in logarithms and other matheamatical expression</sub>,
+     <p>log<sub>2</sub>8</p>,
+     <br>,used to break content at the user desired fixed point 
+     <u> used to underline the content (such as headings,blog article names)</u>
+    block level elements >>are elements that occupy the entire width of the screen
+    <h1></h1>
+    <div class="parent" style="background-color: aqua;">parent div >>it occupies the entire width of the screen
+        <div  class="child-1" style="background-color: bisque;">occupies the entire width of the parent
+            <div class="child-2" style="background-color: blue;">occupis the ntire widthj of the preceeding first child of parent 
+
+            </div>
+        </div>
+    </div>
+
+    
+
+
+
+    
+
+ </body>
+ </html>
+
+
+
+
+
